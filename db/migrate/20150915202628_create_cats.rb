@@ -4,6 +4,8 @@ class CreateCats < ActiveRecord::Migration
       t.string :name
       t.integer :age
       t.string :breed
+
+      t.timestamps
     end
   end
   
